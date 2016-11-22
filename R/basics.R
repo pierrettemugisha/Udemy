@@ -174,8 +174,12 @@ head(mtcars)
 
 sum(mtcars$wt)
 
-attach(mtcars) # attaach to R session environment
+attach(mtcars) # attach to R session environment
 
-sum(wt) # now R knows which data.frame to use since it
+sum(wt) # now R knows which data.frame to use since it is attached
 
 detach(mtcars) # remove it from environment
+
+sum(wt) # Error message since mtcars is not attached anymore
+
+mtcars[2,6]
