@@ -1,0 +1,3 @@
+This is a weaked one
+This is another line into the weaked one file
+Ans some more
